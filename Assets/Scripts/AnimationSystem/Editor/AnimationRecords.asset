@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1062b701263d73c4088366a842803a81, type: 3}
+  m_Name: AnimationRecords
+  m_EditorClassIdentifier: 
+  Records:
+  - Name: Assets/Models/Monster/yu_ren_001_ty.FBX
+    Model: {fileID: 100090, guid: f0df3ba5c7be22d438440660718696df, type: 3}
+    AnimationType: 0
+    Layer: 0
+    Controller: {fileID: 0}
+    Animations:
+    - AnimationName: attack
+      Animation: {fileID: 7400006, guid: f0df3ba5c7be22d438440660718696df, type: 3}
+    AnimationFramePreSecond: -1
+    Attaches:
+    - AliasName: A
+      Name: Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Spine2/Bip002
+        Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand/Bip002
+        R Finger0/Bip002 R Finger01/Bip002 R Finger0Nub
+    Materials:
+    - NodeName: yu_ren_001_ty
+      NodeMaterial: {fileID: 2100000, guid: 62c02b5331ca23449b5d2d725bca384a, type: 2}
